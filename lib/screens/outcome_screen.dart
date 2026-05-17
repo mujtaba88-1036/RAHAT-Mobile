@@ -734,7 +734,7 @@ class _OutcomeScreenState extends State<OutcomeScreen> with SingleTickerProvider
   }
 
   // ╔═══════════════════════════════════════════════════════╗
-  // ║  6. EXPORT BUTTON                                    ║
+  // ║  6. HOME BUTTON                                      ║
   // ╚═══════════════════════════════════════════════════════╝
   Widget _buildExportButton(BuildContext context) {
     return Container(
@@ -744,46 +744,24 @@ class _OutcomeScreenState extends State<OutcomeScreen> with SingleTickerProvider
         color: AppTheme.surface,
         border: Border(top: BorderSide(color: AppTheme.border, width: 1)),
       ),
-      child: Container(
-        decoration: BoxDecoration(
-          borderRadius: BorderRadius.circular(10),
-          gradient: const LinearGradient(
-            colors: [AppTheme.crimson, AppTheme.crimsonDark],
-            begin: Alignment.centerLeft,
-            end: Alignment.centerRight,
-          ),
+      child: ElevatedButton.icon(
+        style: ElevatedButton.styleFrom(
+          backgroundColor: AppTheme.surfaceElevated,
+          side: const BorderSide(color: AppTheme.electric),
+          padding: const EdgeInsets.symmetric(vertical: 16),
+          shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
         ),
-        child: ElevatedButton.icon(
-          style: ElevatedButton.styleFrom(
-            backgroundColor: Colors.transparent,
-            shadowColor: Colors.transparent,
-            padding: const EdgeInsets.symmetric(vertical: 16),
-            shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
-          ),
-          onPressed: () {
-            final reportId = (Random().nextInt(9000) + 1000).toString();
-            ScaffoldMessenger.of(context).showSnackBar(
-              SnackBar(
-                backgroundColor: AppTheme.surface,
-                behavior: SnackBarBehavior.floating,
-                shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
-                content: Text(
-                  'Report #RAHAT-$reportId saved to system',
-                  style: const TextStyle(color: AppTheme.textPrimary, fontWeight: FontWeight.w600),
-                ),
-                duration: const Duration(seconds: 3),
-              ),
-            );
-          },
-          icon: const Icon(Icons.share, color: Colors.white, size: 18),
-          label: const Text(
-            'EXPORT CRISIS REPORT',
-            style: TextStyle(
-              color: Colors.white,
-              fontSize: 14,
-              fontWeight: FontWeight.w800,
-              letterSpacing: 1.2,
-            ),
+        onPressed: () {
+          Navigator.of(context).popUntil((route) => route.isFirst);
+        },
+        icon: const Icon(Icons.home, color: Colors.white, size: 18),
+        label: const Text(
+          'BACK TO HOME',
+          style: TextStyle(
+            color: Colors.white,
+            fontSize: 14,
+            fontWeight: FontWeight.w800,
+            letterSpacing: 1.2,
           ),
         ),
       ),

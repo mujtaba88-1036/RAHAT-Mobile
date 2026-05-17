@@ -112,6 +112,8 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin {
             _resultAnimCtrl.forward(from: 0);
             if (_mapController != null && provider.result?.crisisEvent != null) {
               _blinkController?.repeat(reverse: true);
+              final coords = _getLocationCoords(provider.result!.crisisEvent!.location);
+              _mapController!.animateCamera(CameraUpdate.newLatLng(coords));
             }
           });
         }
