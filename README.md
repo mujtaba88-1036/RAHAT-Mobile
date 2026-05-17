@@ -1,8 +1,5 @@
 # README.md for RAHAT Flutter App Repository
 
-Paste this entire content into your README.md file in the Flutter repo root.
-Replace all [PLACEHOLDER] values with your actual links.
-
 ---
 
 # 🚨 RAHAT — Real-time Agentic Hazard & Action Tracker
@@ -233,8 +230,8 @@ flutter run
 
 ### Backend (Already Deployed)
 ```
-Live URL: YOUR_RAILWAY_URL
-Health check: YOUR_RAILWAY_URL/health
+Live URL: rahat-production.up.railway.app
+Health check: rahat-production.up.railway.app/health
 ```
 
 To run backend locally:
