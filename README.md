@@ -218,8 +218,7 @@ antigravity/
 
 ```bash
 # Clone the repo
-git clone https://github.com/YOUR_USERNAME/rahat.git
-cd rahat/mobile
+https://github.com/mujtaba88-1036/RAHAT-Mobile.git
 
 # Install dependencies
 flutter pub get
@@ -236,7 +235,8 @@ Health check: rahat-production.up.railway.app/health
 
 To run backend locally:
 ```bash
-cd backend
+
+https://github.com/mujtaba88-1036/RAHAT.git
 pip install -r requirements.txt
 cp .env.example .env  # Add your Gemini API keys
 uvicorn main:app --reload --port 8000
