@@ -19,7 +19,7 @@ Replace all [PLACEHOLDER] values with your actual links.
 [![Google Antigravity](https://img.shields.io/badge/Google-Antigravity-EA4335?style=for-the-badge&logo=google&logoColor=white)](https://antigravity.google.dev)
 [![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
 
-[📱 Download APK](releases/RAHAT.apk) • [🎥 Watch Demo](YOUR_DEMO_VIDEO_LINK) • [🔗 Live Backend](YOUR_RAILWAY_URL) • [📖 Backend Repo](YOUR_BACKEND_REPO_LINK)
+[📱 Download APK](https://github.com/mujtaba88-1036/RAHAT-Mobile/releases/tag/v1.0.0) • [🎥 Watch Demo](YOUR_DEMO_VIDEO_LINK) • [🔗 Live Backend](https://railway.com/project/2cf9932a-c782-4e11-818c-b6a94a181ad0?) • [📖 Backend Repo](https://github.com/mujtaba88-1036/RAHAT)
 
 </div>
 
@@ -212,7 +212,7 @@ antigravity/
 - Internet connection (calls live backend)
 
 ### Install APK (Easiest)
-1. Download [RAHAT.apk](releases/RAHAT.apk)
+1. Download [RAHAT.apk](https://github.com/mujtaba88-1036/RAHAT-Mobile/releases/tag/v1.0.0)
 2. Enable "Install from unknown sources" on your Android phone
 3. Install and open — no setup needed
 4. Backend is already live on Railway
@@ -355,11 +355,11 @@ RAHAT is built specifically for Islamabad-Rawalpindi with:
 
 ## 👥 Team
 
-**Built for Google Antigravity Hackathon 2025**
+**Built for Google Antigravity Hackathon 2026**
 
 | Name | Role |
 |---|---|
-| [Your Name] | Full Stack + AI Engineering |
+| Mujtaba Ahmed | Full Stack + AI Engineering |
 
 ---
 
