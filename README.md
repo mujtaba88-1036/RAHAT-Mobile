@@ -36,11 +36,12 @@ RAHAT is an **Agentic AI System** that detects emerging crisis situations in Isl
 <div align="center">
 <table>
 <tr>
-<td><img src="assets/home_page.png" width="200" alt="Home Screen"/><br/><b>Home Page</b></td>
-<td><img src="assets/Agents_Running.png" width="200" alt="Agents Running"/><br/><b>Agents Processing</b></td>
-<td><img src="assets/Report.png" width="200" alt="Report Crisis"/><br/><b>Output After Analyzing</b></td>
-<td><img src="assets/Agents_logs.png" width="200" alt="Agent Trace"/><br/><b>Agent Reasoning</b></td>
-<td><img src="assets/Output.png" width="200" alt="Outcome"/><br/><b>Detailed Crisis Report</b></td>
+<td><img src="assets/home_page.png" width="200" alt="Home Screen"/><br/><b>Home Page/Screen</b></td>
+<td><img src="assets/Agents_Running.png" width="200" alt="Agents Running"/><br/><b>Live Agents Processing</b></td>
+  <td><img src="assets/Output.png" width="200" alt="Outcome"/><br/><b>Output After Analyzing</b></td>
+<td><img src="assets/Agents_logs.png" width="200" alt="Agent Trace"/><br/><b>Multi-Agents Orchasteration</b></td>
+<td><img src="assets/Report.png" width="200" alt="Report Crisis"/><br/><b>Detailed Crisis Report</b></td>
+
 </tr>
 </table>
 </div>
