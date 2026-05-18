@@ -1,6 +1,3 @@
-# README.md for RAHAT Flutter App Repository
-
----
 
 # 🚨 RAHAT — Real-time Agentic Hazard & Action Tracker
 
